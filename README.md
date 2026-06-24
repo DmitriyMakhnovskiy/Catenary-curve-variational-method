@@ -1,4 +1,4 @@
-Catenary Curve: Variational Derivation and Newton Solver
+# Catenary Curve: Variational Derivation and Newton Solver
 
 This repository contains a small educational Python project devoted to the calculation of a catenary curve suspended between two fixed points. The problem is treated as a classical example of the variational method: the equilibrium shape of the curve is obtained by minimizing its gravitational potential energy under the constraint of fixed length.
 
