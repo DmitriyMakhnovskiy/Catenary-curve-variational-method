@@ -4,9 +4,9 @@ This repository contains a small educational Python project devoted to the calcu
 
 Although the problem is mathematically simple, it is useful from both pedagogical and practical points of view. It demonstrates how a physical equilibrium problem can be formulated as a constrained variational problem, reduced to a nonlinear equation, and then solved numerically.
 
-Educational purpose
+## Educational purpose
 
-The project illustrates several important ideas:
+### The project illustrates several important ideas:
 
 formulation of the catenary problem as minimization of a functional;
 use of a Lagrange multiplier to account for the fixed-length constraint;
@@ -19,7 +19,7 @@ Physical problem
 
 A flexible curve with uniform linear mass density is suspended by its fixed endpoints in a gravitational field. The total length of the curve is prescribed and must be larger than the straight-line distance between the endpoints.
 
-The goal is to determine:
+### The goal is to determine:
 
 the equilibrium shape of the curve;
 the horizontal and vertical components of the tension force;
@@ -28,13 +28,13 @@ the tensile stress in the material.
 
 The endpoints may be located at different heights.
 
-Numerical method
+## Numerical method
 
 After introducing suitable dimensionless variables, the problem is reduced to a nonlinear equation for a single unknown parameter. This equation is solved using Newton’s method. The algorithm also takes into account the removable singularity that appears in the limiting case of small sag.
 
-Python implementation
+## Python implementation
 
-The Python script calculates:
+### The Python script calculates:
 
 parameters of the catenary curve;
 minimum admissible length;
@@ -43,7 +43,7 @@ tension force along the curve;
 tensile stress along the curve;
 minimum and maximum values of tension and stress.
 
-The script also produces plots of:
+### The script also produces plots of:
 
 the calculated catenary curve with fixed endpoints;
 the tension and tensile stress along the curve.
@@ -51,15 +51,15 @@ Practical relevance
 
 The maximum tensile stress is an important engineering parameter when selecting the cross-section and length of a suspended wire, cable, or conductor. In practical applications, it should be compared not directly with the yield strength of the material, but with the allowable tensile stress defined using a safety factor.
 
-Requirements
+## Requirements
 
-The script requires:
+### The script requires:
 
 numpy
 matplotlib
 Running the script
 
-Run the Python file:
+### Run the Python file:
 
 python catenary_curve.py
 
